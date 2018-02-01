@@ -1,11 +1,15 @@
 
 * {margin: 0;
-   padding: 0 ;}
+   padding: 0;
+   box-sizing: border-box;}
 
 
 body {
+  background-color: rgb(214, 227, 249);
   font-size: 100%;
-  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+   /* font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif; */
+   font-family: Century; 
+   font-weight: bold;
 }
 
 p {
@@ -15,8 +19,14 @@ p {
 }
 
 /* TODO: size images manually so this is not necessary */
+#cat-img { width: 5%; 
+           height: 10%;
+         }
 img {
-  max-height: 20rem;
+  
+  width: 22.5%;
+  height: 22.5%;
+  
 }
 
 /***************** NAV *****************/
@@ -26,7 +36,7 @@ nav a:hover {
 }
 
 /**************** HERO *****************/
-
+header { background-color: white;}
 header img {
   max-height: 6rem;
 }
@@ -64,3 +74,23 @@ h3 {
   text-align: center;
   color: #2d2d2d;
 }
+
+
+.item-container { 
+
+display: flex; 
+
+flex-direction: column;
+
+ }
+
+
+nav ul { 
+
+display: flex;
+
+justify-content: space-around;
+ 
+
+
+} 
