@@ -21,18 +21,13 @@ p {
 }
 
 /* TODO: size images manually so this is not necessary */
-#cat-img { width: ; 
-           height: ;
-         }
-.img-scarves{
-  
-  width: ;
-  height:  ;
-  border: 1em solid #2d73cb;
-  
-}
+#cat-img {}
 
-.scarves-div {
+.img-scarves{}
+  
+
+
+.scarves-div { width: 350px;
                 }
 
 /***************** NAV *****************/
@@ -78,27 +73,32 @@ h2 {
 h3 {
   font-size: 1.2rem;
   text-align: center;
-  color: #2d2d2d;
+  color: rgb(22,138,57)
+
 }
 
 
 .item-container { 
+  margin: auto;
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: space-around;
 
-display: flex; 
 
-flex-wrap: wrap;
+}
 
+a { 
+  font-size: 1.5em; 
+  color: black; 
+  margin: 0 .5em; 
+  text-decoration: none;
 
- }
-
-a { font-size: 1.5em; }
+}
 
 
 nav ul { 
-
-display: flex;
-
-justify-content: center;
+  display: flex;
+  justify-content: flex-start;
  
 
 
