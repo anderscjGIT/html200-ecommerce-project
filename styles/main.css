@@ -1,4 +1,6 @@
 
+html{ height: 100%; }
+
 * {margin: 0;
    padding: 0;
    box-sizing: border-box;}
@@ -19,30 +21,34 @@ p {
 }
 
 /* TODO: size images manually so this is not necessary */
-#cat-img { width: 5%; 
-           height: 10%;
+#cat-img { width: ; 
+           height: ;
          }
-img {
+.img-scarves{
   
-  width: 22.5%;
-  height: 22.5%;
+  width: ;
+  height:  ;
+  border: 1em solid #2d73cb;
   
 }
+
+.scarves-div {
+                }
 
 /***************** NAV *****************/
 
 nav a:hover {
-  text-decoration: underline;
+  text-decoration: underline; 
 }
 
 /**************** HERO *****************/
-header { background-color: white;}
+header { background-image: url("https://ak7.picdn.net/shutterstock/videos/9813977/thumb/1.jpg");background-repeat: repeat; background-position: center; background-size: contain;}
 header img {
   max-height: 6rem;
 }
 
 h1 .logo-w {
-  font-size: 3.5rem;
+  font-size: 3.5rem; color: rgb(22,138,57);
 }
 
 /**************** ASIDE ****************/
@@ -80,16 +86,19 @@ h3 {
 
 display: flex; 
 
-flex-direction: column;
+flex-wrap: wrap;
+
 
  }
+
+a { font-size: 1.5em; }
 
 
 nav ul { 
 
 display: flex;
 
-justify-content: space-around;
+justify-content: center;
  
 
 
