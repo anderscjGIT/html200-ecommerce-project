@@ -52,3 +52,19 @@ var products = [
   }
 ]
 
+function capture() {
+
+event.preventDefault(); //stops form submit
+console.log("Form Submitted")
+
+/*
+// Name 
+var theName = document.custInfo.name.value; 
+console.log(theName);
+*/
+
+//Email address & console log the results 
+var theEmail = document.getElementById("myEmail").value;
+console.log("Thank you for signing up for our mailing list. We will send future promotions to your email address " + theEmail);
+
+}
