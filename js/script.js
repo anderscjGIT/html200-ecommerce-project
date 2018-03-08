@@ -68,3 +68,96 @@ var theEmail = document.getElementById("myEmail").value;
 console.log("Thank you for signing up for our mailing list. We will send future promotions to your email address " + theEmail);
 
 }
+
+
+
+
+// Global variable for Shopping Cart 
+// cart will be a global array with the names of the clothing items 
+
+var roundedCost = Math.round(100*totalCost)/100;
+var cart = []; 
+var totalCount = 0; 
+var totalCost = 0; 
+
+
+
+
+
+// click (+sign) button on webpage to increment the count of items in the cart and push name of clothing item to cart array 
+
+function addItem(name, cost){
+  
+
+ 
+if (cart.indexOf(name) <= -1) {
+
+  cart.push(name); 
+  totalCount = totalCount + 1; 
+  totalCost += cost; 
+
+  console.log(name, totalCount + " item(s) " + totalCost )
+} 
+
+else { console.log("Item is already added to cart")
+
+  
+}
+}
+
+
+
+// Subtract clothing and count using subtract - button in webpage
+
+function subtractItem(name,minusCost) {
+
+
+if(cart.indexOf(name) > -1) {
+
+myIndex = cart.indexOf(name)
+
+
+cart.splice(myIndex, 1);  
+totalCount = totalCount - 1; 
+totalCost -= minusCost; 
+
+console.log(cart.toString(), totalCount + " item(s)" + totalCost)
+
+}
+
+else{ console.log("item already removed from cart")
+
+
+}
+}
+
+
+// Provide the contents of the global variable "cart", when ShoppingCart icon is pressed
+
+function  shoppingCart() { 
+
+if(cart.length > 0) {
+
+console.log(cart.toString())
+
+} 
+
+
+else {
+  console.log("There are no items in your cart")
+
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
