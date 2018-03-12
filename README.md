@@ -70,3 +70,115 @@ Each weekly assignment will be graded independently. There will not be a final g
 
 ## Testing
 [update this section with information about the testing steps you took to ensure site quality]
+
+
+
+
+## Define who the user base is for this website, and what sort of devices they might use.
+
+Winter Wear Warehouse mostly caters one specific group: 
+
+* Women ages 25 to 54 
+* with median income of $45,000-$75,000. 
+* who are fashionably trendy, and experimental with their attire. 
+* Single and married.   
+* English is their primary language.
+* Over half hold some form of 2 year or 4 year college degree.
+
+##How will they access the webpage ?
+
+* Primary device for shopping online is a smartphone. 
+* Secondary device for shopping online is a tablet.
+* Thirdly, the laptop is also a favorite.
+
+## Where will they access the webpage ? 
+
+* work 
+* public transit
+* lunch breaks
+* home - leisure time
+
+## Why are they viewing the webpage ? 
+
+* Motivated buyer - looking to purchase an item immediately
+* Shopping for a significant other (Birthday gift) 
+* Genuine interest in the latest fashion trends. 
+* Passive customer - Not a motivated buyer.  
+
+## When is the most busiest shopping time 
+
+* Early morning 7am-8am - Arrived at office, and settling into morning routine. 
+* 12-1pm - Typical time many take lunch breaks. 
+* 7pm-9pm - Close to end of day. Screentime before bed
+
+
+
+
+##Test your site across multiple browsers and devices, focusing on ones your market research highlighted, using the tools we learned about in today's class. 
+
+* Utilized http://responsivedesignchecker.com/ to check the responsiveness for - SmartPhones - Tablets  
+* Utilized http://webpagetest.org to check for load times, and responsiveness based on two the the most popular mobile web browsers available.
+
+## 3G Connections - Chrome and Safari 
+* http://webpagetest.org - iphone 6/IOS 11/3G connection -  8 seconds to load
+* http://webpagetest.org - Nexus 5/Chrome/3G connection -  3.6 seconds to load
+* http://webpagetest.org - Nexus 7 Tablet/Chrome/3G connection -  8 seconds to load
+* http://webpagetest.org - iPad 2017 Tablet/IOS 11/3G connection -  9 seconds to load
+
+## 4G Connections - Chrome and Safari 
+* http://webpagetest.org - iphone 6/IOS 11/4G connection -  3.7 seconds to load
+* http://webpagetest.org - Motorola 4G/Chrome/4G connection -  2.6 seconds to load
+* http://webpagetest.org - iPad mini 2/IOS 11/4G connection -  3.8 seconds to load
+* http://webpagetest.org - iPad 2017 Tablet/IOS 11/4G connection -  3 seconds to load
+
+## Cable Connections - Chrome and Safari 
+* http://webpagetest.org - Nexus 5/Chrome/Cable connection -  1.1 seconds to load
+* http://webpagetest.org - iphone 6/IOS 11/Cable connection -  2.5 seconds to load
+* http://webpagetest.org - iPad mini 2/IOS 11/Cable connection -  3 seconds to load
+* http://webpagetest.org - iPad 2017 Tablet/IOS 11/Cable connection -  2.7 seconds to load
+
+
+
+
+##Update the "Testing" section of the README to include your research on users and devices, and testing steps you took to ensure site quality.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
